@@ -1,13 +1,12 @@
 streamlit
 langchain-openai
-dotenv
+python-dotenv
 langchain_core
 langchain_community
 langchain
-typing
 zhipuai
-
-
+chromadb
+pysqlite3-binary 
 
 
 
