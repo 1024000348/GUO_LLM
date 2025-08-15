@@ -159,7 +159,7 @@ def main():
     page_icon="🤖",
     layout="wide"  # 宽屏布局
     )
-    st.markdown('### Guo的大模型小知识库')
+    st.markdown('### ٩̋(๑˃́ꇴ˂̀๑)')
     # st.session_state可以存储用户与应用交互期间的状态与数据
     # 存储对话历史
     if "messages" not in st.session_state:
