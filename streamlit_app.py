@@ -17,7 +17,7 @@ from langchain_core.runnables import RunnableBranch, RunnablePassthrough
 # ===== 新增美化功能 START =====
 # 设置网页标题、图标、布局
 st.set_page_config(
-    page_title="٩̋(๑˃́ꇴ˂̀๑)",
+    page_title="  ٩̋(๑˃́ꇴ˂̀๑)",
     page_icon="🤖",
     layout="wide"
 )
@@ -155,11 +155,11 @@ def gen_response(chain, input, chat_history):
 # 定义main函数，该函数制定显示效果与逻辑
 def main():
     st.set_page_config(
-    page_title="٩̋(๑˃́ꇴ˂̀๑)",
+    page_title="  ٩̋(๑˃́ꇴ˂̀๑)",
     page_icon="🤖",
     layout="wide"  # 宽屏布局
     )
-    st.markdown('### ٩̋(๑˃́ꇴ˂̀๑)')
+    st.markdown('###   ٩̋(๑˃́ꇴ˂̀๑)')
     # st.session_state可以存储用户与应用交互期间的状态与数据
     # 存储对话历史
     if "messages" not in st.session_state:
