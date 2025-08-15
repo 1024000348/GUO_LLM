@@ -1,4 +1,10 @@
 # 导入必要的 Python 库。
+# --- 解决 chromadb 在云环境 sqlite 不兼容问题 ---
+import sys
+import pysqlite3
+sys.modules['sqlite3'] = pysqlite3
+# ------------------------------------------------
+
 import streamlit as st
 from langchain_openai import ChatOpenAI
 import os
