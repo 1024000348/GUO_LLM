@@ -17,7 +17,7 @@ from langchain_core.runnables import RunnableBranch, RunnablePassthrough
 # ===== 新增美化功能 START =====
 # 设置网页标题、图标、布局
 st.set_page_config(
-    page_title="Guo的大模型小知识库",
+    page_title="٩̋(๑˃́ꇴ˂̀๑)",
     page_icon="🤖",
     layout="wide"
 )
