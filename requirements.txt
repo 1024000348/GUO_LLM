@@ -1,7 +1,5 @@
 streamlit
 langchain-openai
-os
-sys
 dotenv
 langchain_core
 langchain_community
