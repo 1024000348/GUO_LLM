@@ -5,7 +5,7 @@ langchain_core
 langchain_community
 langchain
 zhipuai
-chromadb
+chromadb==0.5.5
 pysqlite3-binary 
 
 
