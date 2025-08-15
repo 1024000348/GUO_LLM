@@ -155,7 +155,7 @@ def gen_response(chain, input, chat_history):
 # 定义main函数，该函数制定显示效果与逻辑
 def main():
     st.set_page_config(
-    page_title="Guo的大模型小知识库",
+    page_title="٩̋(๑˃́ꇴ˂̀๑)",
     page_icon="🤖",
     layout="wide"  # 宽屏布局
     )
