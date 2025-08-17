@@ -96,7 +96,7 @@ def get_qa_history_chain():
     api_key = os.environ["ZHIPUAI_API_KEY"]
 
     # 使用 glm-4-flash 模型
-    llm = ZhipuaiLLM(model_name="glm-4-flash", temperature=0.1, api_key=api_key)
+    llm = ZhipuaiLLM(model_name="glm-4-flash", temperature=0.5, api_key=api_key)
 
     condense_question_system_template = (
         "请根据聊天记录总结用户最近的问题，"
